@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boraaa</title>
+</head>
+<style>
+    body{
+        background-color:rgb(49, 34, 12);
+        color :white;
+        font: 16px arial
+         }
+   
+         
+</style>
+<body>
+    <h1 class="um">Bora BILLL</h1>
+    <p name="bem">bora que bora <strong>Zeee!</strong></p>
+    <p> Vamos Viajar</p>
+    <div id = "msg"> bora bill</div>
+    <script>
+    let corpo = document.body
+    corpo.style.backgroundColor = 'darkgray'
+    let p = document.getElementsByTagName('p')[1]
+    document.write(p.innerText)
+    let name = document.getElementsByName('bem')[0]
+    let msg = document.getElementById('msg')
+    let um = document.getElementsByClassName('um')[0]
+    name.innerText = 'Ja se foi zeee!'
+    p.style.color = 'darkblue'
+    name.style.color = 'green'
+    msg.style.color = 'red'
+    um.style.color = 'yellow'
+    um.innerText = 'TCHAU JA FOI'
+    
+    
+
+    </script>
+</body>
+</html>
